@@ -14,13 +14,13 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          # ODM OMC (M52XQ_SWA_INS)
+          # ODM OMC
           - model: "SM-M526B"
             region: "INS"
           # OWO OMC
           - model: "SM-M526B"
             region: "ZTO"
-          # OXM OMC (M52XQ_EUR_OPEN)
+          # OXM OMC
           - model: "SM-M526BR"
             region: "BTU"
           # OJM OMC
